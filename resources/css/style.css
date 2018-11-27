@@ -16,6 +16,11 @@ html {
 body {
   font-family: "Helvetica", sans-serif;
   line-height: 1.4;
+  display: block;
+}
+
+header {
+  display: block;
 }
 
 .container {
@@ -29,7 +34,7 @@ nav,
   background-color: cadetblue;
 }
 
-/*header section*/
+/*header section; banner, nav bar*/
 
 .top {
   display: flex;
@@ -81,4 +86,62 @@ nav a {
   padding-left: 2rem;
   text-decoration: none;
 
+}
+
+/*tagline*/
+
+.tagline-container {
+  width: 960px;
+  display: block;
+
+}
+
+.tagline {
+  background-color: white;
+  margin-top: 14rem;
+  float: right;
+}
+
+.tagline h1 {
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+}
+
+/*icon section*/
+
+.offers {
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.offers h4 {
+  text-align: center;
+}
+
+.paper-icon {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.paper-icon img {
+  width: 3.5rem;
+}
+
+.icon {
+  width: 5rem;
+  margin-left: 6rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.icon img {
+  width: 5rem;
 }
