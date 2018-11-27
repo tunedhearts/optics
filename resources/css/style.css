@@ -1,0 +1,84 @@
+/* "Tamming" Box Model With Reset */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo,
+nav,
+.statement {
+  background-color: cadetblue;
+}
+
+/*header section*/
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  background-image: url("/Users/christiangarcia/Desktop/Projects/optics/resources/images/banner.png");
+  height: 30rem;
+  background-size: cover;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  padding: 1rem 2rem;
+  background-color: cadetblue;
+  width: 960px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 1rem;
+
+}
+
+.logo {
+  display: flex;
+  height: 1.5rem;
+  width: 100%;
+}
+
+.logo img {
+
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.logo h4 {
+  color: white;
+  font-size: 1rem;
+}
+
+nav {
+  width: 100%;
+  text-align: right;
+}
+
+nav a {
+  color: white;
+  padding-left: 2rem;
+  text-decoration: none;
+
+}
