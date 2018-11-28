@@ -150,12 +150,14 @@ nav a {
 
 .info {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .box {
   width: 35%;
   margin-top: 3rem;
+  margin-right: 5%;
 }
 
 .statement {
@@ -176,4 +178,29 @@ nav a {
 
 .philosophy {
   margin-left: 5%;
+}
+
+/*footer section*/
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-box {
+  align-items: center;
+  display: flex;
+  width: 960px;
+  height: 9rem;
+  background-color: azure;
+}
+
+.bottom-box img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+
+.bottom-box p {
 }
