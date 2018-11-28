@@ -145,3 +145,35 @@ nav a {
 .icon img {
   width: 5rem;
 }
+
+/*info section*/
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 35%;
+  margin-top: 3rem;
+}
+
+.statement {
+  margin-bottom: 1rem;
+  height: 2rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.statement h4 {
+  font-weight: bold;
+  color: white;
+  margin-left: 1.25rem;
+  font-size: 1rem;
+
+}
+
+.philosophy {
+  margin-left: 5%;
+}
