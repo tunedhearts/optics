@@ -11,6 +11,7 @@ html {
 
 html {
   font-size: 18px;
+  margin: 0 auto;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
 
 header {
   display: block;
+  margin: 0;
 }
 
 .container {
@@ -44,6 +46,8 @@ nav,
 .banner {
   background-image: url("/Users/christiangarcia/Desktop/Projects/optics/resources/images/banner.png");
   height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   width: 100%;
 }
@@ -91,7 +95,8 @@ nav a {
 /*tagline*/
 
 .tagline-container {
-  width: 960px;
+  max-width: 960px;
+  height: 30rem;
   display: block;
 
 }
@@ -203,4 +208,30 @@ footer {
 }
 
 .bottom-box p {
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1024px) {
+/*header section*/
+  .container {
+    max-width: 100%;
+  }
+
+  header .container {
+    margin-top: 0;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .tagline {
+    margin: 12rem 2rem 0 0;
+    
+  }
+
+  .tagline h1 {
+    font-size: 1.33rem;
+  }
 }
